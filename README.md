@@ -83,19 +83,24 @@ project_root/
 
 To use the application, you can install it via pip with the command `pip install .` from the root directory of the project. Once installed, you can run the application using the command `markov` in your terminal. This will launch the CLI menu where you can navigate through the options to use the application, configure settings, and manage resources.
 
+### Future Enhancements
+
+In the future, we plan to expand the capabilities of this application to include more advanced features and technology integrations. Potential applications could extend into various industries or verticals, such as content creation, digital marketing, and educational tools, leveraging the unique capabilities of Markov Chains and LLMs for text generation and refinement.
+
+#### Detailed Use for Industries or Verticals
+The application's technology can be tailored to specific industries, such as creating unique content for websites, generating creative writing prompts for authors, or providing educational resources for language learning.
+
+#### Architecture Overview
+We aim to enhance the application's architecture to support scalability and integration with other software tools and platforms. This includes developing APIs for easy integration and exploring cloud-based solutions for improved performance and accessibility.
+
+#### Customization Details
+Future versions will offer more customization options for users, allowing for personalized settings for text generation and refinement. This includes customizing the corpus, adjusting the complexity of the generated text, and selecting specific LLM models for refinement.
+
+#### Simple Explanation of Library and Purpose
+The core of this application is built on the `markovify` library for generating text using Markov Chains and the `lionagi` library for refining text with LLMs. These technologies enable the creation of coherent and contextually relevant text based on a given corpus, providing a powerful tool for a wide range of text-based applications.
+
 ### Conclusion
 This detailed specification outlines the structure and components needed to build a text generation and refinement system using Markov Chains and LLMs with the LionAGI framework. The project includes a text-based CLI menu for various functionalities, leverages asynchronous programming to enhance performance and responsiveness, and includes a robust testing framework to ensure reliability.
-
-### Future Enhancements
-In the future, we plan to expand the capabilities of this application by integrating additional features and technology to enhance the user experience and the effectiveness of the text generation and refinement process. Potential applications of these enhancements could range from more diverse text generation to advanced customization options for users.
-
-- **Planned Features**: We aim to incorporate more sophisticated algorithms for text generation and refinement, including the use of AI and machine learning models beyond the current LLMs.
-- **Technology Integrations**: Future versions may include integration with other APIs and services for enhanced text analysis and processing capabilities.
-- **Potential Applications**: The application could be adapted for specific industries or content types, such as creative writing, academic research, or content marketing.
-- **Architecture Customization**: We will explore options for users to customize the architecture of the text generation and refinement process, allowing for more control over the output.
-- **Unique Design Features**: New design features, such as a graphical user interface (GUI) or web-based platform, could be introduced to make the application more accessible and user-friendly.
-
-These enhancements are aimed at making the application more versatile, powerful, and easy to use, ensuring it remains a valuable tool for anyone looking to generate and refine text efficiently.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details. Created by rUv.
