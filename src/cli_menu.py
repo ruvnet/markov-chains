@@ -43,27 +43,42 @@ async def use_option():
 
 def configuration_option():
     """
-    Placeholder for configuration option functionality.
+    Allows users to configure application settings.
     """
-    print("Configuration options will be implemented here.")
+    print("Configuration options:")
+    print("1. Set text generation model")
+    print("2. Set refinement model")
+    print("3. Set output verbosity")
+    # Placeholder for actual configuration logic
 
 def installation_option():
     """
-    Placeholder for installation option functionality.
+    Provides instructions for installing the application.
     """
-    print("Installation instructions will be provided here.")
+    print("Installation Instructions:")
+    print("1. Ensure Python 3.9 or higher is installed.")
+    print("2. Clone the repository from GitHub.")
+    print("3. Run 'pip install -r requirements.txt' to install dependencies.")
+    print("4. Run 'python src/main.py' to start the application.")
 
 def help_option():
     """
-    Placeholder for help option functionality.
+    Offers guidance and usage instructions for the application.
     """
-    print("Help information will be provided here.")
+    print("Help Information:")
+    print("Use: Generates and refines text using Markov Chains and LLMs.")
+    print("Configuration: Allows setting various configuration options for text generation and refinement.")
+    print("Installation: Provides step-by-step instructions for installing the application.")
+    print("Management: Enables management of application resources or settings.")
 
 def management_option():
     """
-    Placeholder for management option functionality.
+    Enables management of application resources or settings.
     """
-    print("Management options will be implemented here.")
+    print("Management Options:")
+    print("1. View current configuration")
+    print("2. Reset to default configuration")
+    # Placeholder for actual management logic
 
 def main_menu():
     """
